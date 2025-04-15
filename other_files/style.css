@@ -1,0 +1,43 @@
+/*
+selector {
+  propertyName: propertyValue;
+} 
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color:  hsl(0, 0%, 100%);
+}
+
+/* body {
+} */
+
+.page-container {
+  background-color: hsl(233, 47%, 7%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* to center it vertically */
+  justify-content: center;
+  /* to center it horizontally */
+  align-items: center;
+}
+
+.card {
+  margin: 2rem 2.5rem;
+  max-width: 25rem;
+  background-color: hsl(244, 38%, 16%);
+}
+
+img {
+  width: 100%;
+}
+
+.ratings-container {
+  list-style: none;
+}
